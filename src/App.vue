@@ -1,12 +1,30 @@
 <template>
-  <div>
-    <header class="bg-white shadow" v-if="$route.meta.title">
-      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold leading-tight text-gray-900">{{ $route.meta.title }}</h1>
-      </div>
-    </header>
+  <div class="h-screen">
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <dashboard-top-nav/>
+
     <main>
-      <router-view/>
+      <div class="flex overflow-hidden h-screen">
+        <dashboard-side-nav/>
+        <div class="bg-gray-50 w-full p-6">
+          <router-view />
+        </div>
+      </div>
     </main>
   </div>
 </template>
+
+<script>
+import DashboardTopNav from "@/components/DashboardTopNav.vue"
+import DashboardSideNav from '@/components/DashboardSideNav.vue'
+
+export default {
+  components: {
+    DashboardTopNav,
+    DashboardSideNav
+  },
+  setup() {
+    
+  },
+}
+</script>
