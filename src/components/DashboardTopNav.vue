@@ -88,6 +88,12 @@
                 src="/assets/logo.png"
                 alt="Advotics Logo"
               />
+              <p class="text-xs mt-5 text-gray-400 mx-2">powered by </p>
+              <img
+                class="h-4 mt-5"
+                src="/assets/logo.png"
+                alt="Advotics Logo"
+              />
             </div>
             <div class="hidden sm:block sm:ml-6">
               <div class="flex space-x-4">
