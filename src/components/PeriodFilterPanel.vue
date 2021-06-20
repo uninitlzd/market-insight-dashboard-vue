@@ -278,11 +278,11 @@ export default {
     const datePicker = ref(null);
 
     onMounted(() => {
-      calcDateDiff();
+      onDateRangeChanged();
     });
 
     const today = new Date();
-    const selectedRange = ref(2);
+    const selectedRange = ref(-1);
 
     let sixMonthsAgo = new Date();
     sixMonthsAgo.setMonth(today.getMonth() - 6);
