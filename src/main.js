@@ -30,6 +30,10 @@ app.config.globalProperties.$filters = {
   }
 }
 
+import VueFinalModal from 'vue-final-modal'
+
+app.use(VueFinalModal())
+
 const router = createRouter({
   history: createWebHistory(),
   routes,

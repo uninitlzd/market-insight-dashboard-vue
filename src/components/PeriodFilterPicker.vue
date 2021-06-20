@@ -1,7 +1,7 @@
 <template>
     <div class="relative inline-block text-left" v-click-outside="onClickOutside">
         <div>
-          <button @click="panelVisibility = true" type="button" class="inline-flex w-full items-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
+          <button @click="panelVisibility = true" type="button" class="inline-flex w-full items-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-green-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
             <img src="/assets/icons/period-filter-calendar-icon.png" width="22" height="22" alt="">
             <span class="mx-4">Period</span>
             <div class="mr-4">

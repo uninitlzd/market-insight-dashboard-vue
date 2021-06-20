@@ -1,6 +1,7 @@
 import MarketInsight from './views/MarketInsight.vue'
 import About from './views/About.vue'
 import NotFound from './views/NotFound.vue'
+import PreviewComponent from './views/PreviewComponent.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
@@ -14,5 +15,6 @@ export const routes = [
     // which is lazy-loaded when the route is visited.
     // component: () => import('./views/About.vue')
   },
+  { path: '/prev', component: PreviewComponent },
   { path: '/:path(.*)', component: NotFound },
 ]

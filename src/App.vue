@@ -4,7 +4,7 @@
     <dashboard-top-nav/>
 
     <main>
-      <div class="flex overflow-hidden h-screen">
+      <div class="flex overflow-hidden">
         <dashboard-side-nav/>
         <div class="bg-gray-50 w-full p-6">
           <router-view />
