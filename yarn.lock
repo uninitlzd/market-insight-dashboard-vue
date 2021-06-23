@@ -1485,10 +1485,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-v-calendar@^3.0.0-alpha.4:
-  version "3.0.0-alpha.4"
-  resolved "https://registry.npmjs.org/v-calendar/-/v-calendar-3.0.0-alpha.4.tgz#1e03d2df2827d713c77ca11a9dbf84c15c44ebf6"
-  integrity sha512-i3dNvDbRTIiFQQepi69hekRKSsWXxBwL7J4l2x7LAnwp1s1C/eCsA7nroOWTqXtR5yCL+iK14rjA6KSpYeNsNQ==
+v-calendar@^3.0.0-alpha.5:
+  version "3.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/v-calendar/-/v-calendar-3.0.0-alpha.5.tgz#a76a08a9b177d9d0de6197c56600332924e7dc83"
+  integrity sha512-KGTzBDQzSbk1nwHvvm1zb3rcTYB4giL46mOjNvwtgxrvM2a5Kt7Ytxa9HolNIrDl8eYgMrfPY0L7bNnGb7dXCA==
   dependencies:
     "@types/lodash" "^4.14.165"
     core-js "^3.7.0"
