@@ -124,10 +124,10 @@
   resolved "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/tailwindcss@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/@types/tailwindcss/-/tailwindcss-2.0.6.tgz#4f60178f804348b67539bc954309f656814c8c9c"
-  integrity sha512-Gj+g0/F9/IdZtcsWnGfR2XKnWTcapj3riuTeHl4SW/cjeuAFV4AYNt3RcoY+aZtI0DsCMGssTdDMeEvqbAH1CA==
+"@types/tailwindcss@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-2.2.1.tgz#891349cc71b5a85208ca5796938d91dd48cc0417"
+  integrity sha512-raLwtQF+uul9lsvs7+GUizeNrpxRqbnckIu/va5hzPPwZsImZunkyLFAS/1rwEHhhvFMNiMJmTiP5PPGa0oNJA==
 
 "@vitejs/plugin-vue@^1.2.3":
   version "1.2.3"
