@@ -13,7 +13,7 @@
     "apexcharts": "^3.27.1",
     "chart.js": "^3.3.2",
     "moment": "^2.29.1",
-    "v-calendar": "^3.0.0-alpha.4",
+    "v-calendar": "^3.0.0-alpha.7",
     "vue": "^3.1.1",
     "vue-final-modal": "^3.3.1",
     "vue-router": "^4.0.9",
